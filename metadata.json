@@ -1,0 +1,6 @@
+{
+  "name": "CBT TJKN — SMK Mudita Singkawang",
+  "description": "Aplikasi Computer-Based Test (CBT) Teknologi Jaringan Kabel dan Nirkabel dengan pengacakan soal berbasis identitas siswa, enkripsi AES-256-GCM, dan integrasi Google Apps Script.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

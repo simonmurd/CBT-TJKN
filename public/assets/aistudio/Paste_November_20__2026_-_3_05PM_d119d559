@@ -1,0 +1,426 @@
+YAYASAN DHARMA BUDDHA MAITREYA
+SEKOLAH MENENGAH KEJURUAN (SMK) MUDITA
+S  I  N  G  K  A  W  A  N  G
+TERAKREDITASI  :  A	    Nomor  : 1466/BAN-SM/SK/2022	         Tanggal : 21 Oktober 2022
+Jalan S.M. Tsjafioeddin No. 32     Kel. Melayu       Kec. Singkawang  Barat      Kota Singkawang 
+Telp. (0562) 6300094    Email : smkmudita36@yahoo.com,web site : htpps://www.smkmudita.sch.id
+NSS : 344130701004					 NPSN : 30105493
+
+LEMBAR SOAL PENILAIAN SUMATIF AKHIR SEMESTER (SAS) GANJIL
+TAHUN PELAJARAN 2026/2027
+
+Mata Pelajaran	:  Teknologi Jaringan Kabel dan Nirkabel
+Kelas 			:  XI
+Program Keahlian	:  Teknik Jaringan Komputer dan Telekomunikasi
+Hari / Tanggal		:  Senin, 30 November 2026
+Waktu			:  14.15- 15.45
+
+A.	Petunjuk Pilihan Ganda
+Pilihlah jawaban yang paling tepat, dengan menyilang alternatif A, B, C, D dan E yang telah disediakan!
+
+1.	Dalam proses pemeliharaan dan pemecahan masalah (troubleshooting) jaringan komputer, seorang teknisi perlu memastikan apakah jalur komunikasi logis menuju perangkat server sudah tersambung. Perintah dasar pada antarmuka baris perintah (CLI) yang digunakan untuk menguji konektivitas jaringan antara perangkat pengirim dan host tujuan dengan mengirimkan paket data kecil adalah ....
+A.	ipconfig
+B.	tracert
+C.	ping
+D.	netstat
+E.	nslookup
+
+2.	Saat menjalankan utilitas diagnostik untuk memeriksa keterjangkauan suatu alamat IP di jaringan, sistem operasi bekerja di balik layar menggunakan protokol khusus. Protokol jaringan yang bekerja di lapisan Network (Layer 3 OSI) dan digunakan secara khusus oleh perintah ping untuk mengirimkan pesan Echo Request dan menerima Echo Reply adalah ....
+A.	TCP (Transmission Control Protocol)
+B.	UDP (User Datagram Protocol)
+C.	HTTP (Hypertext Transfer Protocol)
+D.	ICMP (Internet Control Message Protocol)
+E.	ARP (Address Resolution Protocol)
+
+3.	Ketika Anda melakukan pengujian ping ke sebuah alamat IP server dalam jaringan dan layar terminal menampilkan pesan "Request Timed Out" (RTO) secara berulang, kesimpulan analisis teknis yang paling tepat mengenai kondisi jalur komunikasi tersebut adalah ....
+A.	Kabel jaringan terhubung dengan sangat baik dan latensi bernilai 0 ms
+B.	Paket Echo Request berhasil dikirim, tetapi balasan tidak diterima dalam batas waktu yang ditentukan
+C.	Alamat IP tujuan mengalami duplikasi pada switch lokal
+D.	Kecepatan transfer data melebihi kapasitas bandwidth maksimum ISP
+E.	Kartu jaringan (NIC) sedang dalam mode hemat daya
+
+4.	Pada hasil keluaran perintah ping yang tampil di layar terminal, terdapat informasi metrik berupa Reply from 192.168.1.1: bytes=32 time=14ms TTL=64. Bagian parameter time=14ms pada baris tersebut menunjukkan nilai ....
+A.	Jumlah paket yang hilang selama proses transmisi
+B.	Kapasitas maksimal ukuran paket data dalam satuan byte
+C.	Latensi atau waktu tempuh pulang-pergi (Round-Trip Time) paket data
+D.	Batas jumlah router maksimal yang boleh dilewati paket
+E.	Alamat fisik (MAC Address) dari server tujuan
+
+5.	Dalam struktur header paket IP yang dikirimkan saat melakukan pengujian konektivitas jaringan, selalu disertakan sebuah nilai angka yang akan berkurang satu setiap kali paket melewati perangkat router. Nilai TTL (Time to Live) pada hasil pengujian ping tersebut berfungsi untuk ....
+A.	Mengukur kekuatan sinyal elektromagnetik pada kabel tembaga
+B.	Membatasi masa hidup paket data agar tidak berputar tanpa henti (looping) di jaringan
+C.	Menentukan urutan prioritas pengiriman paket suara dan video
+D.	Mengonversi nama domain menjadi alamat IP secara otomatis
+E.	Menghitung total biaya penggunaan kuota internet
+
+6.	Sebuah paket data pengujian dikirimkan dari komputer klien bersistem operasi Windows (yang secara default menetapkan nilai awal TTL = 128) menuju sebuah server di jaringan luar, dan paket balasan diterima dengan keterangan TTL=124. Berdasarkan selisih nilai tersebut, jumlah router (hop) yang telah dilewati paket data adalah ....
+A.	2 router
+B.	3 router
+C.	4 router
+D.	5 router
+E.	124 router
+
+7.	Saat melakukan pengujian jaringan lokal menggunakan terminal, layar tidak menampilkan RTO, melainkan memunculkan pesan "Destination Host Unreachable" yang dikirim oleh gateway lokal. Munculnya pesan kesalahan tersebut saat menjalankan perintah ping umumnya menandakan bahwa ....
+A.	Server tujuan sedang sibuk melayani jutaan permintaan HTTP
+B.	Tidak ditemukan rute jaringan menuju alamat tujuan atau jalur fisik lokal terputus
+C.	Koneksi internet berjalan stabil dengan tingkat packet loss 0%
+D.	Firewall tujuan memblokir seluruh lalu lintas DNS
+E.	Perangkat pengirim menggunakan kabel fiber optik jenis Single-Mode
+
+8.	Pengguna jaringan umumnya lebih mudah mengingat alamat situs berupa teks dibandingkan deretan angka IP. Layanan jaringan yang bertugas menerjemahkan nama domain yang mudah diingat manusia (seperti www.smk.sch.id) menjadi alamat IP numerik saat dilakukan pengujian ping adalah ....
+A.	DHCP (Dynamic Host Configuration Protocol)
+B.	FTP (File Transfer Protocol)
+C.	DNS (Domain Name System)
+D.	SMTP (Simple Mail Transfer Protocol)
+E.	SNMP (Simple Network Management Protocol)
+
+9.	Seorang siswa melakukan diagnostik koneksi internet dengan dua tahap pengujian: pertama melakukan ping 8.8.8.8 dan mendapatkan status Reply, namun pada tahap kedua saat melakukan ping google.com muncul pesan "Ping request could not find host". Berdasarkan hasil tersebut, sumber permasalahan terletak pada ....
+A.	Kerusakan fisik pada konektor RJ-45
+B.	Konfigurasi DNS Server yang tidak tepat atau sedang bermasalah
+C.	Port switch dalam keadaan mati (shutdown)
+D.	Kabel UTP melebihi batas panjang 100 meter
+E.	Interferensi gelombang radio dari perangkat microwave
+
+10.	Perhatikan data pengamatan statistik akhir dari hasil uji ping berikut: Packets: Sent = 4, Received = 3, Lost = 1 (25% loss). Apabila kondisi statistik jaringan seperti ini terjadi secara terus-menerus pada jaringan kantor, hal tersebut mengindikasikan adanya ....
+A.	Koneksi sempurna tanpa gangguan sama sekali
+B.	Ketidakstabilan koneksi (packet loss) yang dapat menyebabkan gangguan pada aplikasi real-time seperti panggilan video
+C.	Putusnya jalur utama secara permanen
+D.	Kesalahan penulisan sintaks perintah pada terminal
+E.	Kelebihan daya listrik pada port Power over Ethernet (PoE)
+
+11.	Secara default, perintah ping pada sistem operasi Windows hanya mengirimkan empat buah paket data lalu berhenti secara otomatis. Untuk melakukan pengujian ping secara terus-menerus guna memantau kestabilan koneksi dalam jangka waktu lama hingga dihentikan manual dengan tombol Ctrl + C, opsi parameter yang ditambahkan adalah ....
+A.	ping -a
+B.	ping -n
+C.	ping -t
+D.	ping -l
+E.	ping -f
+
+12.	Sebelum memeriksa koneksi ke perangkat switch atau router di luar komputer, seorang teknisi ingin memastikan terlebih dahulu bahwa perangkat keras kartu jaringan (NIC) dan sistem protokol TCP/IP internal pada PC bekerja normal. Alamat IP khusus yang digunakan untuk melakukan pengujian internal (loopback address) tersebut adalah ....
+A.	192.168.1.1
+B.	10.0.0.1
+C.	172.16.0.1
+D.	127.0.0.1
+E.	255.255.255.0
+
+13.	Dalam pembangunan jaringan area lokal (LAN) di lingkungan perkantoran maupun laboratorium sekolah, terdapat berbagai jenis media penghantar tembaga. Kabel jaringan berbahan tembaga yang terdiri dari empat pasang kawat terpilin tanpa lapisan pelindung aluminium foil tambahan di dalamnya disebut ....
+A.	STP (Shielded Twisted Pair)
+B.	FTP (Foiled Twisted Pair)
+C.	UTP (Unshielded Twisted Pair)
+D.	Coaxial Thinnet
+E.	Fiber Optic Patch Cord
+
+14.	Jika Anda mengupas selubung luar kabel jaringan Ethernet, Anda akan melihat delapan kawat tembaga yang dipilin secara berpasangan (masing-masing dua kawat saling melilit). Tujuan utama kawat tembaga di dalam kabel UTP dibuat saling berpilin (twisted) berpasangan adalah untuk ....
+A.	Memperkuat daya tarik fisik kabel saat ditarik melalui pipa konduit
+B.	Mengurangi efek interferensi elektromagnetik eksternal dan crosstalk antar pasangan kawat
+C.	Mempermudah teknisi dalam mengupas selubung luar kabel
+D.	Meningkatkan kapasitas tegangan listrik hingga 220 Volt
+E.	Mengubah sinyal listrik menjadi gelombang cahaya
+
+
+15.	Agar komunikasi data antar perangkat jaringan berjalan sesuai standar industri dan tidak mengalami gangguan sinyal, teknisi wajib menyusun warna kawat sebelum memasukkannya ke konektor RJ-45. Urutan susunan warna kabel UTP yang benar sesuai standar internasional TIA/EIA-568B dari Pin 1 hingga Pin 8 adalah ....
+A.	Putih-Hijau, Hijau, Putih-Oranye, Biru, Putih-Biru, Oranye, Putih-Cokelat, Cokelat
+B.	Putih-Oranye, Oranye, Putih-Hijau, Biru, Putih-Biru, Hijau, Putih-Cokelat, Cokelat
+C.	Putih-Oranye, Oranye, Putih-Biru, Hijau, Putih-Hijau, Biru, Putih-Cokelat, Cokelat
+D.	Putih-Biru, Biru, Putih-Oranye, Hijau, Putih-Hijau, Oranye, Putih-Cokelat, Cokelat
+E.	Putih-Cokelat, Cokelat, Putih-Hijau, Biru, Putih-Biru, Hijau, Putih-Oranye, Oranye
+
+16.	Pemilihan jenis pengkabelan Straight-Through maupun Crossover sangat bergantung pada jenis perangkat jaringan yang akan dihubungkan. Konfigurasi pengkabelan Straight-Through (Ujung A standar T568B dan Ujung B standar T568B) paling tepat digunakan untuk menghubungkan pasangan perangkat berikut, KECUALI ....
+A.	Komputer (PC) ke Switch
+B.	Komputer (PC) ke Hub
+C.	Switch ke Router
+D.	Router ke Access Point
+E.	Komputer (PC) ke Komputer (PC) secara langsung tanpa perangkat perantara
+
+17.	Pada kabel tipe Crossover (di mana Ujung A menggunakan standar T568A dan Ujung B menggunakan standar T568B), terjadi penyilangan jalur sinyal pengiriman (Transmit/TX) dan penerimaan (Receive/RX) agar dua perangkat sejenis dapat berkomunikasi langsung. Pertukaran jalur tersebut terjadi pada nomor pin ....
+A.	Pin 1 dan 2 bertukar dengan Pin 3 dan 6
+B.	Pin 1 dan 2 bertukar dengan Pin 4 dan 5
+C.	Pin 3 dan 6 bertukar dengan Pin 7 dan 8
+D.	Pin 4 dan 5 bertukar dengan Pin 7 dan 8
+E.	Semua pin dari nomor 1 hingga 8 bertukar posisi secara terbalik
+
+18.	Setelah kedelapan kawat kabel UTP diluruskan, dipotong rata, dan dimasukkan seluruhnya ke dalam slot pin konektor RJ-45 hingga menyentuh bagian ujung, teknisi perlu menguncinya secara permanen. Alat kerja jaringan yang berfungsi untuk menekan pin tembaga konektor RJ-45 agar menembus isolasi kawat sekaligus menjepit selubung luar kabel adalah ....
+A.	Cable Stripper
+B.	Punch Down Tool
+C.	Tang Crimping (Crimping Tool)
+D.	OTDR (Optical Time Domain Reflectometer)
+E.	Fusion Splicer
+
+19.	Sebelum kabel UTP hasil rakitan dipasang ke perangkat switch dan komputer, teknisi wajib memeriksa kontinuitas setiap kawatnya. Saat melakukan pengujian kabel Straight-Through menggunakan alat LAN Cable Tester, indikator urutan lampu yang menandakan hasil PASSED (berhasil sempurna) adalah ....
+A.	Lampu LED 1 sampai 8 pada unit Master dan Remote menyala secara berurutan dan bersamaan (1-1, 2-2, 3-3, hingga 8-8)
+B.	Lampu LED menyala secara acak namun cepat
+C.	Hanya lampu LED nomor 1, 2, 3, dan 6 yang menyala redup
+D.	Lampu LED pada unit Master menyala 1–8, sedangkan pada unit Remote menyala 3, 6, 1, 4, 5, 2, 7, 8
+E.	Lampu LED nomor 4 dan 5 tidak menyala sama sekali
+
+
+
+20.	Seorang siswa menguji kabel Straight-Through buatannya menggunakan LAN Tester. Ia mendapati bahwa saat lampu unit Master menyala di Pin 3, unit Remote menyala di Pin 6, dan sebaliknya saat Master di Pin 6, unit Remote menyala di Pin 3, sementara pin lainnya normal. Kesalahan yang terjadi saat proses crimping tersebut adalah ....
+A.	Kabel putus di bagian tengah bentangan
+B.	Posisi kawat Putih-Hijau dan Hijau tertukar di salah satu ujung konektor
+C.	Konektor RJ-45 tidak ditekan dengan kuat saat proses crimping
+D.	Panjang kupasan kulit kabel terlalu pendek
+E.	Standar yang digunakan adalah T568A pada kedua ujungnya
+
+21.	Dalam praktik pemasangan konektor RJ-45 yang sesuai standar profesional, panjang kupasan selubung luar (jacket) kabel UTP harus diperhitungkan agar bagian kulit kabel ikut masuk ke dalam pangkal konektor RJ-45 sebelum di-crimp. Tujuan utama dari prosedur teknis ini adalah ....
+A.	Agar sinyal listrik dapat mengalir melalui selubung plastik kabel
+B.	Memberikan pegangan mekanis (strain relief) agar kawat tidak mudah tertarik lepas dari pin tembaga
+C.	Mencegah masuknya air hujan ke dalam ruang server
+D.	Mengurangi panjang gelombang frekuensi radio
+E.	Mempercepat proses transfer data hingga 10 Gbps
+
+22.	Setiap media transmisi memiliki batas jarak maksimal sebelum sinyal mengalami penurunan kualitas yang menyebabkan data gagal dibaca oleh perangkat penerima. Berdasarkan standar IEEE 802.3 untuk jaringan Ethernet berbasis kabel tembaga (UTP Cat 5e / Cat 6), batas panjang bentangan kabel maksimal dalam satu segmen tanpa perangkat penguat sinyal (repeater/switch) adalah ....
+A.	50 meter
+B.	100 meter
+C.	250 meter
+D.	500 meter
+E.	1.000 meter
+
+23.	Pada Simulasi 2B mengenai analisis pengaruh jarak terhadap kualitas sinyal kabel UTP, ketika slider panjang bentangan kabel digeser melebihi batas standar 100 meter (misalnya mencapai 200 meter atau 300 meter), fenomena fisik dan logis yang terjadi pada sinyal data adalah ....
+A.	Kecepatan transfer data meningkat dua kali lipat
+B.	Terjadi peningkatan redaman (attenuation) yang signifikan sehingga sinyal melemah dan memicu banyak packet loss atau RTO
+C.	Nilai latensi menurun menjadi 0 ms
+D.	Kabel UTP secara otomatis berubah fungsi menjadi kabel crossover
+E.	Tidak ada perubahan performa sama sekali hingga jarak 2 kilometer
+
+24.	Dalam topologi jaringan lokal berbentuk bintang (star), seluruh kabel UTP dari komputer klien bermuara pada sebuah perangkat konsentrator cerdas. Perangkat jaringan yang bekerja pada Layer 2 OSI (Data Link) dan berfungsi meneruskan frame data secara spesifik berdasarkan alamat MAC tujuan adalah ....
+A.	Repeater
+B.	Switch
+C.	Modem Analog
+D.	Media Converter
+E.	Patch Panel
+
+25.	Dalam perencanaan infrastruktur jaringan komputer berbasis kabel (wired network), seorang administrator jaringan harus memahami berbagai alternatif penghantar fisik beserta kelebihan dan kekurangannya. Berikut ini merupakan empat jenis utama media transmisi jaringan kabel yang umum dibandingkan karakteristik fisiknya, yaitu ....
+A.	UTP, STP, Coaxial, dan Fiber Optic
+B.	UTP, HDMI, VGA, dan USB
+C.	Fiber Optic, Bluetooth, Infrared, dan Satelit
+D.	Coaxial, Twisted Pair, Wi-Fi, dan Li-Fi
+E.	STP, FTP, Powerline, dan NFC
+
+26.	Meskipun sama-sama menggunakan empat pasang kawat tembaga yang saling berpilin dan memakai konektor RJ-45, kabel STP (Shielded Twisted Pair) memiliki harga lebih mahal dan bobot lebih berat dibandingkan kabel UTP. Perbedaan struktur fisik yang paling mendasar antara keduanya terletak pada ....
+A.	Jumlah kawat tembaga di dalamnya (UTP 4 kawat, STP 16 kawat)
+B.	Keberadaan lapisan pelindung logam (foil/braided shield) pada STP yang membungkus pasangan kawat untuk meredam interferensi
+C.	Bahan inti konduktor (UTP memakai tembaga, STP memakai serat kaca)
+D.	Jenis konektor yang digunakan (STP wajib memakai konektor BNC)
+E.	Kemampuan STP menghantarkan sinyal cahaya laser
+
+27.	Sebelum kabel pasangan berpilin (twisted pair) mendominasi jaringan Ethernet modern, terdapat jenis kabel yang menggunakan inti konduktor tembaga tunggal di bagian tengah, dikelilingi lapisan isolator plastik tebal, anyaman serabut logam (braided shield), dan selubung luar, yang kini masih sering dijumpai pada jaringan TV kabel atau CCTV analog. Media transmisi tersebut adalah ....
+A.	Kabel UTP Cat 6
+B.	Kabel Coaxial
+C.	Kabel Fiber Optic Single-Mode
+D.	Kabel STP Cat 5e
+E.	Kabel Serial RS-232
+
+28.	Berbeda dengan kabel UTP yang menggunakan konektor modular plastik RJ-45, kabel Coaxial memerlukan konektor logam khusus yang dapat mengunci inti tembaga dan anyaman pelindungnya secara presisi. Jenis konektor standar yang biasa dipasangkan pada ujung kabel Coaxial untuk keperluan instalasi jaringan atau perangkat frekuensi radio adalah ....
+A.	RJ-45 dan RJ-11
+B.	SC, LC, dan ST
+C.	BNC dan F-Connector
+D.	USB Type-C dan Thunderbolt
+E.	SFP dan QSFP
+
+29.	Untuk memenuhi kebutuhan transfer data berkecepatan sangat tinggi pada jaringan tulang punggung (backbone) antar kota maupun antar gedung yang berjarak jauh, digunakan media transmisi modern yang tidak lagi mengandalkan aliran arus listrik. Media transmisi yang mengirimkan data dalam bentuk pulsa cahaya melalui inti serat kaca atau plastik sangat halus tersebut adalah ....
+A.	Coaxial Thicknet
+B.	UTP Category 6A
+C.	STP Category 7
+D.	Fiber Optic
+E.	Twinaxial Cable
+
+30.	Agar sinyal pulsa cahaya yang ditembakkan dari sumber pemancar tidak keluar menembus sisi samping kabel saat melewati jalur yang melengkung, kabel Fiber Optic dirancang dengan susunan lapisan optik khusus. Komponen lapisan yang membungkus inti (core) dan berfungsi memantulkan kembali cahaya agar tetap berada di dalam inti berdasarkan prinsip pemantulan internal sempurna adalah ....
+A.	Buffer Coating
+B.	Strength Member (Kevlar)
+C.	Cladding
+D.	Outer Jacket
+E.	Copper Shield
+
+B.	Pilihan Ganda Kompleks (Pilihlah 5 Jawaban Benar)
+
+31.	Dalam kegiatan praktikum administrasi infrastruktur jaringan, seorang siswa diminta untuk memeriksa konektivitas antarperangkat di laboratorium komputer menggunakan utilitas baris perintah (Command Prompt atau Terminal). Salah satu utilitas paling mendasar yang digunakan oleh teknisi jaringan adalah perintah ping. Berdasarkan prinsip kerja dan karakteristik perintah ping dalam diagnostik jaringan, manakah pernyataan berikut yang paling sesuai? (Pilih 5 jawaban)
+A.	Menggunakan protokol ICMP pada Layer 3 OSI dengan pesan Echo Request dan Echo Reply.
+B.	Menguji keterjangkauan host tujuan serta mengukur waktu tempuh pulang-pergi (Round-Trip Time / latensi).
+C.	Dapat dijalankan terus-menerus di Windows menggunakan opsi -t hingga dihentikan dengan Ctrl + C.
+D.	Membantu teknisi memeriksa apakah jalur komunikasi logis menuju perangkat tujuan dapat dijangkau.
+E.	Menampilkan informasi waktu tempuh paket dalam satuan milidetik (ms) pada keluaran balasan.
+F.	Mampu menerjemahkan nama domain menjadi alamat IP secara mandiri tanpa layanan DNS.
+G.	Berfungsi mengonfigurasi alamat IP otomatis pada kartu jaringan (NIC) melalui protokol DHCP.
+H.	Menggantikan fungsi kabel LAN tester untuk mendeteksi putusnya kawat tembaga secara fisik.
+I.	Meningkatkan kecepatan bandwidth internet secara langsung saat opsi -t diaktifkan.
+J.	Menghapus seluruh aturan firewall pada server tujuan secara otomatis.Seorang teknisi 
+
+32.	jaringan di sebuah perusahaan menerima laporan bahwa beberapa komputer klien tidak dapat mengakses situs web melalui peramban (browser). Teknisi tersebut kemudian membuka jendela terminal dan menjalankan serangkaian pengujian perintah ping ke berbagai alamat tujuan untuk melokalisasi sumber gangguan. Berdasarkan hasil keluaran perintah ping yang sering muncul di layar terminal, manakah pernyataan yang sesuai dengan kondisi diagnostik jaringan? (Pilih 5 jawaban)
+A.	ping 8.8.8.8 menghasilkan Reply, tetapi ping google.com memunculkan Ping request could not find host menandakan kendala pada konfigurasi atau layanan DNS.
+B.	Hasil Reply from 192.168.1.1: bytes=32 time=14ms TTL=64 menunjukkan Round-Trip Time sebesar 14ms.
+C.	Hasil Reply from 192.168.1.1: bytes=32 time=14ms TTL=64 menunjukkan ukuran data uji sebesar 32 byte dan nilai TTL 64.
+D.	Destination Host Unreachable dari gateway lokal dapat menandakan tidak ada rute menuju alamat tujuan atau jalur lokal terputus.
+E.	Statistik Sent = 4, Received = 3, Lost = 1 (25% loss) yang berulang menunjukkan ketidakstabilan koneksi (packet loss).
+F.	Request Timed Out (RTO) berulang berarti latensi jaringan bernilai 0 ms dan koneksi berjalan sempurna.
+G.	Ping request could not find host saat menguji domain menandakan panjang kabel UTP melebihi 100 meter.
+H.	Packet loss sebesar 25% berarti seluruh paket data tiba tanpa kehilangan sedikit pun.
+I.	Destination Host Unreachable selalu berarti server tujuan sedang kelebihan beban HTTP.
+J.	Request Timed Out berarti kartu jaringan (NIC) sedang mengonversi nama domain 
+
+33.	menjadi MAC address.Saat melakukan pelacakan jalur paket data antarjaringan (routing) dan pemeriksaan kesehatan antarmuka jaringan internal pada sistem operasi Windows maupun Linux, teknisi sering memperhatikan nilai parameter Time to Live (TTL) serta melakukan pengujian ke alamat loopback. Berdasarkan cara kerja protokol TCP/IP, manakah pernyataan yang sesuai mengenai parameter TTL dan pengujian internal jaringan? (Pilih 5 jawaban)
+A.	Nilai TTL berkurang 1 setiap melewati perangkat router (hop) di jalur jaringan.
+B.	Pembatasan nilai TTL mencegah paket data berputar tanpa henti (looping) di jaringan.
+C.	Jika paket dikirim dari Windows dengan TTL awal 128 dan diterima kembali dengan TTL=124, maka paket telah melewati 4 router.
+D.	Alamat 127.0.0.1 digunakan untuk menguji loopback atau tumpukan TCP/IP dan NIC internal perangkat sendiri.
+E.	Kegagalan pada uji 127.0.0.1 mengarahkan pemeriksaan awal pada perangkat keras/perangkat lunak jaringan lokal komputer tersebut.
+F.	Alamat 127.0.0.1 merupakan alamat IP gateway default pada jaringan lokal kelas C.
+G.	Nilai TTL bertambah 1 setiap melewati perangkat switch Layer 2.
+H.	Nilai TTL mengukur besarnya tegangan listrik pada kabel tembaga UTP.
+I.	Alamat 127.0.0.1 digunakan untuk menguji koneksi ke server DNS publik di internet.
+J.	Jika TTL awal 128 dan hasil balasan TTL=124, berarti paket melewati 124 router.
+
+34.	Dalam proyek instalasi jaringan area lokal (LAN) di sebuah gedung sekolah bertingkat, tim teknisi memilih menggunakan kabel Unshielded Twisted Pair (UTP) sebagai media transmisi utama untuk menghubungkan puluhan komputer klien ke switch distribusi. Agar kinerja jaringan optimal dan sesuai standar industri, teknisi harus memahami struktur fisik dan batasan teknis kabel tersebut. Manakah pernyataan yang sesuai mengenai perancangan jaringan LAN menggunakan kabel UTP? (Pilih 5 jawaban)
+A.	Terdiri dari 4 pasang (8 kawat) tembaga terpilin tanpa lapisan pelindung foil tambahan di dalamnya.
+B.	Pilinan berpasangan (twisted pair) membantu mengurangi interferensi elektromagnetik eksternal.
+C.	Pilinan berpasangan membantu mengurangi crosstalk antar pasangan kawat di dalam kabel.
+D.	Panjang bentangan standar maksimum dalam satu segmen Ethernet (UTP Cat 5e / Cat 6) adalah 100 meter.
+E.	Menggeser panjang kabel melebihi 100 meter dapat memicu redaman (attenuation) yang menyebabkan packet loss atau RTO.
+F.	Menggeser panjang kabel melebihi 100 meter menurunkan redaman sehingga latensi menjadi 0 ms.
+G.	Kabel UTP memiliki lapisan pelindung aluminum foil di sekeliling setiap pasangan kawat.
+H.	Kabel UTP mengalirkan data menggunakan pulsa cahaya laser melalui serat kaca.
+I.	Batas panjang standar kabel UTP Ethernet tanpa penguat adalah 500 meter.
+J.	Pilinan kawat pada kabel UTP bertujuan menaikkan tegangan listrik menjadi 220 Volt.
+
+35.	Pada sesi uji kompetensi keahlian (UKK), peserta didik diminta membuat kabel patch cord UTP menggunakan konektor modular RJ-45 dan peralatan kerja jaringan sesuai prosedur operasional standar (SOP). Ketelitian dalam mengurutkan warna kabel dan teknik crimping sangat menentukan keberhasilan transmisi data. Manakah pernyataan yang sesuai mengenai pemasangan konektor RJ-45 dan standar pengkabelan UTP? (Pilih 5 jawaban)
+A.	Urutan pin 1 sampai pin 8 pada standar TIA/EIA-568B adalah Putih-Oranye, Oranye, Putih-Hijau, Biru, Putih-Biru, Hijau, Putih-Cokelat, Cokelat.
+B.	Selubung luar (jacket) kabel perlu ikut masuk ke pangkal konektor RJ-45 saat di-crimp.
+C.	Memasukkan selubung luar ke pangkal konektor RJ-45 memberikan pegangan mekanis (strain relief) agar kawat tidak mudah tertarik lepas.
+D.	Tang crimping digunakan untuk menekan pin tembaga RJ-45 menembus isolasi kawat sekaligus menjepit selubung luar kabel.
+E.	Sebelum dipasang ke jaringan, kontinuitas susunan kawat perlu diperiksa menggunakan LAN cable tester.
+F.	Standar TIA/EIA-568B diawali dengan pasangan warna Putih-Hijau dan Hijau pada pin 1 dan 2.
+G.	Selubung plastik luar kabel UTP berfungsi sebagai konduktor utama aliran sinyal listrik.
+H.	Fusion splicer merupakan alat utama untuk memasang konektor RJ-45 pada ujung kabel UTP.
+I.	Pada standar TIA/EIA-568B, pin 7 dan 8 diisi oleh pasangan warna Biru dan Putih-Biru.
+J.	Pengujian LAN cable tester tidak diperlukan sebelum menghubungkan kabel ke switch.
+
+36.	Setelah menyelesaikan proses crimping pada kedua ujung kabel UTP, seorang siswa menguji hasil pekerjaannya menggunakan LAN cable tester sebelum menghubungkannya ke perangkat jaringan aktif seperti PC, Switch, dan Router. Pemahaman mengenai pola nyala lampu indikator LED sangat penting untuk mendeteksi kesalahan pengkabelan sejak dini. Manakah pernyataan yang sesuai terkait jenis pengkabelan dan hasil uji LAN cable tester? (Pilih 5 jawaban)
+A.	Kabel Straight-Through (T568B–T568B) umum digunakan untuk menghubungkan PC ke Switch.
+B.	Kabel Straight-Through umum digunakan untuk menghubungkan PC ke Hub maupun Switch ke Router.
+C.	Menghubungkan PC ke PC secara langsung tanpa perangkat perantara (tanpa Auto-MDI/MDIX) umumnya menggunakan kabel Crossover (T568A–T568B).
+D.	Pada kabel Straight-Through dengan kontinuitas normal, lampu LED 1–8 pada unit Master dan Remote menyala berurutan dan bersamaan (1–1 hingga 8–8).
+E.	Jika pada uji Straight-Through lampu Master di pin 3 menyalakan Remote di pin 6 (dan sebaliknya), maka terjadi pertukaran jalur pada pin 3 dan 6.
+F.	Pertukaran jalur antara pin 3 dan pin 6 pada kabel Straight-Through menandakan hasil pemasangan sudah sempurna tanpa kesalahan.
+G.	Kabel Crossover (T568A–T568B) menukar posisi pin 1 dan 2 dengan pin 7 dan 8.
+H.	Kabel Straight-Through selalu memiliki susunan warna T568A di ujung A dan T568B di ujung B.
+I.	Lampu LED 1–8 yang menyala secara acak dan tidak berurutan pada LAN tester menunjukkan kontinuitas kabel normal.
+J.	Menghubungkan Router ke Access Point menggunakan kabel Straight-Through menyalahi standar pengkabelan.
+
+37.	Dalam dunia infrastruktur jaringan komputer dan sistem telekomunikasi, terdapat beberapa jenis media transmisi berbasis konduktor tembaga yang digunakan sesuai kebutuhan lingkungan, seperti UTP, STP, dan Coaxial. Seorang teknisi harus mampu membedakan konstruksi fisik dan penggunaan konektor dari masing-masing kabel tersebut. Manakah pernyataan yang sesuai mengenai karakteristik media transmisi tembaga? (Pilih 5 jawaban)
+A.	Kabel STP memiliki lapisan pelindung logam (foil/braided shield) untuk membantu meredam interferensi dibanding UTP.
+B.	Kabel STP umumnya lebih mahal dan memiliki bobot lebih berat dibandingkan kabel UTP.
+C.	Kabel Coaxial memiliki inti konduktor tembaga tunggal di tengah, lapisan isolator, pelindung anyaman logam, dan selubung luar.
+D.	Konektor yang umum digunakan pada kabel Coaxial antara lain BNC dan F-Connector.
+E.	Kabel Coaxial masih sering dijumpai pada jaringan TV kabel atau sistem CCTV analog.
+F.	Kabel UTP memiliki ketahanan tertinggi terhadap gangguan derau listrik luar dibandingkan Coaxial dan Fiber Optic.
+G.	Inti konduktor kabel Coaxial terbuat dari serat kaca murni berdiameter beberapa mikrometer.
+H.	Kabel Coaxial menggunakan konektor modular plastik RJ-45 pada ujungnya.
+I.	Kabel STP dan UTP memiliki bobot dan harga yang selalu identik di pasaran.
+J.	Kabel UTP tidak memiliki keterbatasan jarak maupun gangguan derau listrik luar.
+
+38.	Seiring meningkatnya kebutuhan bandwidth tinggi dan koneksi internet berkecepatan gigabit di lingkungan perkantoran maupun layanan Fiber to the Home (FTTH), penggunaan kabel serat optik (Fiber Optic) menjadi standar utama bagi teknisi jaringan modern. Berdasarkan struktur lapisan dan karakteristik jenis serat optik, manakah pernyataan yang sesuai mengenai media transmisi serat optik (Fiber Optic)? (Pilih 5 jawaban)
+A.	Mengirimkan data berupa pulsa cahaya melalui inti serat kaca atau plastik.
+B.	Cladding membungkus core dan berfungsi menjaga cahaya tetap berada di dalam inti melalui pemantulan internal sempurna.
+C.	Single-Mode Fiber (SMF) memiliki diameter inti sangat kecil (9 mikrometer) dan menggunakan sumber cahaya laser.
+D.	Single-Mode Fiber mampu menjangkau jarak sangat jauh hingga puluhan kilometer.
+E.	Konektor SC (Subscriber Connector) memiliki bodi persegi dengan mekanisme dorong-tarik (push-pull) dan umum dipakai pada FTTH.
+F.	Single-Mode Fiber memiliki diameter inti 50 atau 62.5 mikrometer dan menggunakan LED untuk jarak pendek.
+G.	Kabel Fiber Optic menghantarkan data menggunakan arus listrik bertegangan tinggi.
+H.	Cladding merupakan selubung luar plastik tebal yang berfungsi menahan tarikan mekanis kabel.
+I.	Konektor SC berbentuk bulat berulir seperti konektor BNC pada kabel Coaxial.
+J.	Multi-Mode Fiber hanya digunakan untuk kabel bawah laut antarbenua.
+
+39.	Sebuah institusi pendidikan berencana memperluas jaringan kampusnya dengan menghubungkan Gedung Rektorat ke Gedung Laboratorium Terpadu yang berjarak 450 meter. Selain itu, di dalam masing-masing gedung akan dipasang jaringan distribusi lokal dengan kecepatan hingga 1 Gbps. Sebagai seorang calon teknisi jaringan yang merancang infrastruktur tersebut, manakah pernyataan yang sesuai dalam perancangan jaringan di lapangan? (Pilih 5 jawaban)
+A.	Kabel UTP Cat 6 mendukung frekuensi kerja hingga 250 MHz.
+B.	Kabel UTP Cat 6 memiliki batas jarak maksimum 100 meter dalam satu segmen standar.
+C.	Menghubungkan dua gedung terpisah sejauh 450 meter sebagai backbone sebaiknya memakai Fiber Optic melalui Media Converter atau port SFP.
+D.	Pada jarak 2.000 meter, Fiber Optic mempertahankan kekuatan sinyal lebih baik dibandingkan UTP Cat 5e/Cat 6 maupun Coaxial RG-59.
+E.	Memilih media transmisi perlu menyesuaikan jarak bentangan dan kebutuhan kecepatan data.
+F.	Menarik satu kabel UTP Cat 5e sepanjang 450 meter tanpa perangkat penguat menjaga koneksi tetap stabil.
+G.	Kabel UTP Cat 6 menggunakan sinar laser dan menjangkau jarak 40 kilometer tanpa penguat.
+H.	Frekuensi kerja maksimum kabel UTP Cat 6 adalah 16 MHz dengan kecepatan puncak 10 Mbps.
+I.	Kabel telepon RJ-11 merupakan pilihan utama untuk backbone gedung berjarak 450 meter.
+J.	Pada jarak 2.000 meter, UTP Cat 5e mempertahankan sinyal tanpa penurunan performa.
+
+40.	Saat melakukan instalasi jaringan di area bengkel praktik permesinan yang memiliki banyak motor listrik berdaya besar dan panel trafo, seorang teknisi menemukan bahwa kualitas sinyal data pada kabel jaringan mengalami penurunan drastis akibat gangguan derau elektromagnetik. Berdasarkan konsep fisika transmisi data, manakah pernyataan yang sesuai mengenai gangguan sinyal pada jaringan? (Pilih 5 jawaban)
+A.	EMI berasal dari medan magnet atau gelombang elektromagnetik perangkat eksternal seperti motor industri, trafo, atau lampu neon.
+B.	Menaikkan tingkat kebisingan industri (misalnya dari level 10 ke level 100 pada simulasi EMI) memicu distorsi gelombang sinyal pada kabel UTP.
+C.	Lapisan pelindung logam pada kabel STP membantu menyerap dan mengarahkan gangguan elektromagnetik ke grounding jika terpasang dengan benar.
+D.	Kabel STP menunjukkan performa lebih stabil dibanding kabel UTP pada pengujian gangguan EMI tinggi.
+E.	Crosstalk merupakan gangguan induksi medan elektromagnetik antar pasangan kawat yang berdekatan di dalam kabel.
+F.	Crosstalk terjadi karena kebocoran cahaya laser dari selubung luar kabel Fiber Optic.
+G.	Menaikkan tingkat kebisingan industri hingga level 100 membuat gelombang sinyal UTP semakin simetris dan bersih.
+H.	Kabel STP bekerja pada tegangan listrik 1.000 Volt untuk melawan gangguan EMI.
+I.	Mengikat kabel UTP menempel langsung pada kabel daya listrik utama mencegah terjadinya EMI.
+J.	EMI hanya terjadi pada jaringan nirkabel Wi-Fi dan tidak memengaruhi kabel tembaga.
+
+41.	Dalam pengukuran kualitas saluran transmisi menggunakan alat ukur jaringan seperti Optical Power Meter (OPM) atau cable certifier, teknisi perlu memahami parameter redaman sinyal (attenuation) serta perbandingan sinyal terhadap derau (Signal-to-Noise Ratio / SNR) agar data dapat diterima tanpa kerusakan bit. Manakah pernyataan yang sesuai terkait redaman sinyal dan kualitas saluran transmisi? (Pilih 5 jawaban)
+A.	Attenuation adalah melemahnya amplitudo atau kekuatan sinyal seiring bertambahnya jarak tempuh pada media transmisi.
+B.	Satuan standar yang umum digunakan untuk menyatakan redaman atau rasio daya sinyal adalah Desibel (dB).
+C.	Semakin panjang kabel, amplitudo sinyal yang tiba di sisi penerima cenderung semakin kecil akibat akumulasi hambatan media.
+D.	Signal-to-Noise Ratio (SNR) membandingkan kekuatan sinyal informasi dengan derau (noise) latar belakang.
+E.	Nilai SNR yang sangat rendah menunjukkan derau mendekati atau melebihi kekuatan sinyal sehingga meningkatkan risiko bit error.
+F.	Nilai SNR yang sangat rendah berarti kekuatan sinyal asli jauh melampaui derau tanpa risiko bit error.
+G.	Semakin panjang kabel, amplitudo sinyal yang tiba di penerima semakin besar karena akumulasi hambatan.
+H.	Satuan standar pengukuran redaman sinyal adalah Ampere (A).
+I.	Attenuation berarti konversi nama domain menjadi alamat IP secara otomatis.
+J.	SNR yang rendah menandakan tidak ada perangkat lain yang terhubung ke jaringan.
+
+42.	Seorang teknisi lapangan sedang menghitung anggaran daya (link power budget) dan mengevaluasi kualitas instalasi fisik kabel jaringan di ruang server. Kesalahan teknis seperti penarikan kabel yang terlalu panjang atau tekukan tajam pada kabel serat optik dapat merusak kualitas transmisi. Manakah pernyataan yang sesuai mengenai analisis daya sinyal dan instalasi fisik? (Pilih 5 jawaban)
+A.	Jika daya awal pemancar sebesar 20dBm dan mengalami total redaman sebesar 14dB, maka daya yang sampai di penerima adalah 6dBm (20-14=6).
+B.	Penambahan panjang bentangan kabel dapat memperbesar nilai redaman sinyal.
+C.	Suhu lingkungan yang terlalu tinggi serta kualitas sambungan konektor yang buruk dapat memperbesar redaman.
+D.	Menekuk kabel fiber optic melebihi batas minimum bend radius dapat memicu lonjakan redaman (macrobending loss) karena cahaya bocor keluar dari inti (core).
+E.	Pemasangan sistem grounding yang baik dan pemilihan jenis kabel yang sesuai membantu menjaga kualitas transmisi.
+F.	Daya awal 20dBm dengan total redaman 14dB menghasilkan daya terima sebesar 34dBm.
+G.	Mengikat kabel UTP menempel langsung sejajar dengan kabel daya utama menurunkan nilai redaman (attenuation) menjadi negatif.
+H.	Kabel fiber optic tidak mengalami lonjakan redaman meskipun ditekuk melebihi batas minimum bend radius.
+I.	Kualitas sambungan konektor yang buruk tidak memengaruhi besarnya redaman sinyal.
+J.	Suhu lingkungan yang tinggi selalu menurunkan nilai redaman.
+
+
+43.	Sebuah jalur jaringan antar dua gedung produksi yang berjarak 180 meter ditarik menggunakan kabel tembaga biasa dan melewati area ruang genset industri berkapasitas besar. Admin jaringan mengeluhkan bahwa koneksi sering mengalami Request Timed Out (RTO) dan packet loss sangat tinggi terutama saat genset sedang beroperasi penuh. Manakah pernyataan yang sesuai untuk menganalisis dan mengatasi kasus ini? (Pilih 5 jawaban)
+A.	Jarak 180 meter sudah melampaui batas standar 100 meter untuk kabel UTP Ethernet tanpa perangkat perantara.
+B.	Medan elektromagnetik dari genset industri berpotensi menimbulkan EMI pada kabel tembaga yang kurang terlindungi.
+C.	Kombinasi jarak melebihi 100 meter dan gangguan EMI dapat memicu packet loss tinggi serta RTO.
+D.	Mengganti media transmisi ke Fiber Optic membantu mengatasi masalah jarak sekaligus kebal terhadap EMI.
+E.	Pemasangan jalur Fiber Optic antar gedung mendukung jarak jauh melampaui 100 meter tanpa gangguan medan magnet genset.
+F.	Menambahkan perintah ping -t pada server menghilangkan EMI dan memperpanjang batas jarak UTP menjadi 200 meter.
+G.	Mengganti kabel UTP Cat 5e baru sepanjang 180 meter menghilangkan batas jarak 100 meter pada standar Ethernet.
+H.	Menurunkan kecepatan NIC menjadi 10 Mbps Half-Duplex membuat kabel UTP kebal terhadap medan magnet genset.
+I.	Mengubah susunan pin dari T568B menjadi T568A meningkatkan batas jarak UTP menjadi 300 meter.
+J.	Genset industri tidak menghasilkan gangguan elektromagnetik apa pun di sekitarnya.
+
+44.	Ketika menangani laporan gangguan koneksi internet dari pengguna di lingkungan kerja, seorang teknisi IT yang kompeten tidak langsung membongkar perangkat keras, melainkan menerapkan langkah-langkah diagnostik jaringan secara sistematis dari lapisan terbawah hingga lapisan aplikasi. Manakah pernyataan yang sesuai mengenai diagnostik konektivitas jaringan? (Pilih 5 jawaban)
+A.	Perintah ping mengirimkan paket data kecil untuk menguji konektivitas logis antara pengirim dan tujuan.
+B.	Packet loss yang terjadi berulang dapat mengganggu aplikasi real-time seperti panggilan video.
+C.	Pengujian bertahap (seperti 127.0.0.1, gateway atau IP publik, lalu nama domain) membantu memetakan titik gangguan.
+D.	Jika ping 8.8.8.8 berhasil tetapi ping google.com gagal menemukan host, pemeriksaan mengarah pada resolusi nama/DNS.
+E.	Memantau koneksi dalam jangka waktu lama di Windows dapat dilakukan dengan menjalankan ping -t.
+F.	Packet loss sebesar 25% berarti seluruh paket data tiba tanpa kehilangan sedikit pun.
+G.	Perintah ipconfig digunakan untuk mengirimkan pesan Echo Request dan Echo Reply ICMP.
+H.	Jika ping 8.8.8.8 gagal karena masalah DNS, maka ping 8.8.8.8 akan selalu memunculkan Ping request could not find host.
+I.	Perintah ping bekerja pada Layer 7 aplikasi dan mengabaikan protokol ICMP.
+J.	Koneksi dengan packet loss berulang selalu menandakan bandwidth ISP melampaui batas maksimum.
+
+45.	Dalam tahap perencanaan anggaran dan spesifikasi teknis proyek instalasi jaringan baru, seorang administrator jaringan harus mempertimbangkan berbagai aspek seperti biaya, jarak tempuh, kondisi lingkungan elektromagnetik, serta kemudahan instalasi dan perawatan kabel. Manakah pernyataan yang sesuai mengenai pemilihan dan penggunaan media transmisi kabel? (Pilih 5 jawaban)
+A.	Kabel UTP ekonomis dan fleksibel untuk instalasi LAN di dalam ruangan.
+B.	Kabel UTP memiliki batas jarak 100 meter dan rentan terhadap gangguan derau listrik luar.
+C.	Kabel STP menambahkan pelindung logam untuk membantu meredam interferensi dibanding UTP.
+D.	Kabel Fiber Optic unggul untuk jarak jauh dan lingkungan dengan interferensi elektromagnetik tinggi.
+E.	Kabel Fiber Optic memerlukan penanganan hati-hati saat instalasi fisik agar tidak melanggar bend radius.
+F.	Semua jenis kabel tembaga (UTP, STP, dan Coaxial) kebal terhadap interferensi elektromagnetik karena tidak menghantarkan arus listrik.
+G.	Kabel UTP hanya dapat digunakan pada topologi jaringan Bus dan tidak mendukung jaringan Star.
+H.	Kabel Fiber Optic dapat ditekuk hingga sudut 90 derajat tajam tanpa risiko patah atau kebocoran cahaya.
+I.	Kabel UTP tidak mendukung kecepatan transfer data di atas 10 Mbps.
+J.	Pemasangan konektor pada kabel UTP selalu membutuhkan proses fusion splicing.
+
+C.	Uraian
+
+46.	Jelaskan secara rinci definisi standar IEEE 802.11 serta perannya dalam mengatur komunikasi pada jaringan nirkabel lokal (WLAN / Wi-Fi)!
+47.	Bandingkan perkembangan generasi awal Wi-Fi meliputi 802.11b, 802.11a, dan 802.11g berdasarkan frekuensi operasi dan kecepatan maksimalnya!
+48.	Jelaskan keunggulan standar 802.11n (Wi-Fi 4) dibandingkan generasi sebelumnya, terutama penggunaan dual-band dan teknologi MIMO!
+49.	Mengapa standar 802.11ac (Wi-Fi 5) dikenal sebagai "Gigabit Wi-Fi"? Jelaskan peran teknologi MU-MIMO dalam standar ini!
+50.	Apa saja peningkatkan utama pada standar 802.11ax (Wi-Fi 6 / 6E), serta bagaimana teknologi OFDMA dan Target Wake Time (TWT) bekerja?
+
+
+
