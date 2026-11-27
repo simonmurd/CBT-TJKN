@@ -15,7 +15,7 @@ import {
   saveCompletedSummary,
   sendEnvelopeToGAS,
 } from './utils/gasSubmission';
-import { generateExamPaper } from './utils/prng';
+import { generateExamPaper, getLocalDateKey } from './utils/prng';
 
 export default function App() {
   const [activeSession, setActiveSession] = useState<ExamSessionState | null>(() =>
@@ -30,14 +30,18 @@ export default function App() {
 
   const examPaper = useMemo(() => {
     if (!activeSession) return null;
-    return generateExamPaper(activeSession.student);
-  }, [activeSession?.student]);
+    const dateKey =
+      activeSession.examDateKey ?? getLocalDateKey(new Date(activeSession.startedAtIso));
+    return generateExamPaper(activeSession.student, dateKey);
+  }, [activeSession?.student, activeSession?.examDateKey, activeSession?.startedAtIso]);
 
   const handleStartExam = useCallback((student: StudentRecord, token: string) => {
     const nowMs = Date.now();
+    const examDateKey = getLocalDateKey(new Date(nowMs));
     const newSession: ExamSessionState = {
       student,
       token,
+      examDateKey,
       startedAtIso: new Date(nowMs).toISOString(),
       endAtMs: nowMs + EXAM_CONFIG.durationMinutes * 60 * 1000,
       currentIndex: 0,
@@ -70,7 +74,9 @@ export default function App() {
       if (isSubmitting) return;
       setIsSubmitting(true);
       try {
-        const paper = generateExamPaper(finalSession.student);
+        const dateKey =
+          finalSession.examDateKey ?? getLocalDateKey(new Date(finalSession.startedAtIso));
+        const paper = generateExamPaper(finalSession.student, dateKey);
         const envelope = await buildEncryptedSubmissionEnvelope(finalSession, paper);
 
         const initialSummary: CompletedSessionSummary = {

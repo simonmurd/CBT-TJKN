@@ -34,8 +34,18 @@ export function seededShuffle<T>(items: readonly T[], rng: () => number): T[] {
   return arr;
 }
 
-export function generateExamPaper(student: StudentRecord): ExamPaper {
-  const seedString = `${student.sekolah}|${student.kelas}|${student.nisNoPeserta}|${student.namaLabel}|TJKN-SAS-2026`;
+export function getLocalDateKey(date: Date = new Date()): string {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+export function generateExamPaper(
+  student: StudentRecord,
+  dateKey: string = getLocalDateKey()
+): ExamPaper {
+  const seedString = `${student.sekolah}|${student.kelas}|${student.nisNoPeserta}|${student.namaLabel}|${dateKey}|TJKN-SAS-2026`;
   const seedHash = fnv1a32(seedString);
   const rng = createMulberry32(seedHash);
 

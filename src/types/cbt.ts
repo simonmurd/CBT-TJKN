@@ -80,6 +80,7 @@ export interface TabViolationLog {
 export interface ExamSessionState {
   student: StudentRecord;
   token: string;
+  examDateKey?: string;
   startedAtIso: string;
   endAtMs: number;
   currentIndex: number;
